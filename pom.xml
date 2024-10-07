@@ -13,7 +13,7 @@
     
     <groupId>com.michelleduso</groupId>
     <artifactId>todolist</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.1.1-SNAPSHOT</version>
     <name>todolist</name>
     <description>Gerenciador de tarefas</description>
     
