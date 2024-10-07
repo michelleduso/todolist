@@ -17,10 +17,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.michelleduso.todolist.utils.Utils;
 
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
 @RequestMapping("/tasks/")
+@SecurityRequirement(name = "Basic Authentication")
 public class TaskController {
 
     @Autowired
