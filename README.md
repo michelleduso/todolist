@@ -1,11 +1,13 @@
 # API To-Do List - Controle de Tasks
 
-Este projeto consiste em uma API para o controle de tarefas (To-Do List), desenvolvida com **Spring Boot** e utilizando o banco de dados **H2**. Durante o desenvolvimento, você aprenderá a:
+Este projeto consiste em uma API para o controle de tarefas (To-Do List), desenvolvida com **Spring Boot** e utilizando o banco de dados **H2**. Durante o desenvolvimento, foram utilizadas as seguintes tecnologias:
 
 - Criar rotas HTTP.
 - Receber e validar parâmetros.
 - Integrar com um banco de dados.
 - Implementar autenticação utilizando JWT (JSON Web Tokens) com Spring Security.
+- Documentar a API com **Swagger**.
+- Realizar o deploy da API utilizando **Docker**.
 - Realizar o deploy da API na plataforma [Render](https://render.com).
 
 ## Instalações Necessárias
@@ -26,6 +28,9 @@ Certifique-se de ter as seguintes ferramentas instaladas antes de começar:
    - [Postman](https://www.postman.com/downloads/)
    - [Insomnia](https://insomnia.rest/download)
    - [API Dog](https://apidog.com/)
+
+5. **Extensão Docker para VS Code**: Se estiver utilizando o VS Code, é necessário instalar a extensão do Docker:
+   - [Extensão Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)   
 
 ## Ambiente de Desenvolvimento
 
